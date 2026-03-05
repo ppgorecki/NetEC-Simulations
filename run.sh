@@ -29,7 +29,7 @@ fi
 
 VARIANTS="wgdac wgdab wgdbc wgdb wgda wgdc nowgd"
 
-if [[ $1 -eq fixB ]]
+if [[ $1 == fixB ]]
 then
 	shift
 	# add 27 and continue
