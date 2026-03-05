@@ -9,6 +9,8 @@ For the main software package, refer to:
 For examples and datasets, refer to:
 - https://github.com/ppgorecki/NetEC-Pandanales.git
 
+Financial support was provided by the NCN grant 2023/51/B/ST6/02792.
+
 ## Requirements
 
 Download the NetEC repository:
