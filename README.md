@@ -1,7 +1,7 @@
 
 # NetEC-Simulations
 
-This datasets shows inference of WGD events from simulatated WGD scenarios using NetEC, a tool for inferring whole genome duplication (WGD) episodes by reconciling gene trees with species trees or networks. It uses dynamic programming to find the minimum number of duplication episodes that explain the observed gene tree duplications.
+This dataset shows inference of WGD events from simulated WGD scenarios using NetEC, a tool for inferring whole genome duplication (WGD) episodes by reconciling gene trees with species trees or networks. It uses dynamic programming to find the minimum number of duplication episodes that explain the observed gene tree duplications.
 
 For the main software package, refer to:
 - https://github.com/ppgorecki/netec
@@ -25,6 +25,10 @@ A simulated network and 7 sets of gene trees.
 
 - **Network:** `data/net.nwk`
 - **Gene trees:** `data/*.gtrees`
+
+The gene trees were simulated using https://github.com/ppgorecki/TreeSimulations (the input networks were unfolded including the WGD events in these simulations). 
+
+See more in the article "Episode Clustering in Phylogenetic Networks" by P.Górecki et al.
 
 ## Results 
 
